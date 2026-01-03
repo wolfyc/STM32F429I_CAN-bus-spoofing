@@ -6,8 +6,11 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_Z4QG" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">qui sont les pires ?</Translation>
+      <Text Id="__SingleUse_2B09" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">this app is to discover and manipulate&#10; the automotive car controls.</Translation>
+      </Text>
+      <Text Id="__SingleUse_PGJ4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Hrfly Designs</Translation>
       </Text>
     </TextGroup>
   </Texts>

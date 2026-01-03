@@ -2,37 +2,39 @@
   "Application": {
     "Screens": [
       {
-        "Name": "Screen1",
+        "Name": "start_up",
         "Components": [
           {
-            "Type": "ButtonWithLabel",
-            "Name": "buttonWithLabel1",
-            "X": 93,
-            "Y": 244,
-            "Width": 110,
-            "Height": 50,
-            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_disabled.png",
-            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_disabled.png",
-            "TextId": "__SingleUse_Z4QG",
-            "ReleasedColor": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "PressedColor": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 54,
+            "Y": 19,
+            "Width": 132,
+            "Height": 24,
+            "TextId": "__SingleUse_PGJ4",
             "TextRotation": "0",
-            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\tiny_rounded_disabled.json"
+            "Color": {
+              "Red": 43,
+              "Green": 224,
+              "Blue": 27
+            },
+            "AutoSize": true
           },
           {
-            "Type": "Image",
-            "Name": "image1",
-            "Width": 256,
-            "Height": 256,
-            "RelativeFilename": "ai-generated-dra.png"
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 21,
+            "Y": 43,
+            "Width": 198,
+            "Height": 24,
+            "TextId": "__SingleUse_2B09",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 43,
+              "Green": 224,
+              "Blue": 27
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": []
@@ -45,7 +47,7 @@
       "Height": 320
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "Screen1",
+    "StartupScreenName": "start_up",
     "SelectedStartupLanguage": "GB",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "UIPath": ".",
